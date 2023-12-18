@@ -1,12 +1,21 @@
 [tool.poetry]
-name = "restapiairtransportation"
+name = "apitransportationapi"
 version = "0.1.0"
 description = ""
 authors = ["a1nsworth <xed255@gmail.com>"]
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+fastapi = "^0.105.0"
+sqlalchemy = "^2.0.23"
+gunicorn = "^21.2.0"
+pydantic-settings = "^2.1.0"
+black = "^23.12.0"
+alembic = "^1.13.0"
+uvicorn = "^0.24.0.post1"
+inflection = "^0.5.1"
+psycopg2-binary = "^2.9.9"
+pydantic = {extras = ["email"], version = "^2.5.2"}
 
 
 [build-system]
